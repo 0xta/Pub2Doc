@@ -1,0 +1,51 @@
+# =============================================================================
+# Pub2Doc - Git Ignore
+# =============================================================================
+
+# Test Data & Private Samples (DO NOT COMMIT TO GITHUB)
+test_data/
+test_images/
+extracted_images/
+uploads/
+outputs/
+
+# Document & Media Files
+*.pub
+*.docx
+*.doc
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Temporary & Environment Config
+.env
+*.log
+*.tmp
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo

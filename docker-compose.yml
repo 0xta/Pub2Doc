@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  pub2doc:
+    build: .
+    container_name: pub2doc_service
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./outputs:/app/outputs
+    environment:
+      - PYTHONUNBUFFERED=1
